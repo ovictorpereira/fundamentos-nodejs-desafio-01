@@ -2,7 +2,7 @@
   "name": "fundamentos-nodejs-challenge-01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "node src/server.js --watch",
     "db:seed": "node streams/import-csv.js"
