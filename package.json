@@ -1,0 +1,22 @@
+{
+  "name": "fundamentos-nodejs-challenge-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js --watch",
+    "db:seed": "node streams/import-csv.js"
+  },
+  "keywords": [
+    "nodejs",
+    "challenge",
+    "fundamentals"
+  ],
+  "author": "Victor Pereira",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "csv-parser": "^3.2.0"
+  }
+}
